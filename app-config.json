@@ -1,0 +1,297 @@
+{
+  "ios": [
+    {
+      "id": "v2raytun",
+      "name": "v2RayTun",
+      "isFeatured": true,
+      "urlScheme": "v2raytun://import/",
+      "installationStep": {
+        "buttons": [
+          {
+            "buttonLink": "https://apps.apple.com/ru/app/v2raytun/id6476628951",
+            "buttonText": {
+              "ru": "Открыть в App Store"
+            }
+          }
+        ],
+        "description": {
+          "ru": "Откройте страницу в App Store и установите приложение. Запустите его, в окне разрешения VPN-конфигурации нажмите Разрешить и введите свой пароль."
+        }
+      },
+      "addSubscriptionStep": {
+        "description": {
+          "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически."
+        }
+      },
+      "connectAndUseStep": {
+        "description": {
+          "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов."
+        }
+      },
+      "additionalAfterAddSubscriptionStep": {
+        "title": {
+          "ru": "Включите службы"
+        },
+        "description": {
+          "ru": "На главном экране приложения нажмите на Службы, включите их и замтем активируйте домены:\n*.ru, *.kz, *.by и *.рф\n\nПосле этого промотайте страницу вниз и активируйте сервисы:\nApple, VK, Tinkoff, SberBank, Telegram, Twich, Yandex"
+        },
+        "buttons": []
+      }
+    },
+    {
+      "id": "streisand",
+      "name": "Streisand",
+      "isFeatured": false,
+      "urlScheme": "streisand://import/",
+      "installationStep": {
+        "buttons": [
+          {
+            "buttonLink": "https://apps.apple.com/ru/app/streisand/id6450534064",
+            "buttonText": {
+              "ru": "Открыть в App Store"
+            }
+          }
+        ],
+        "description": {
+          "ru": "Откройте страницу в App Store и установите приложение. Запустите его, в окне разрешения VPN-конфигурации нажмите Allow и введите свой пароль."
+        }
+      },
+      "addSubscriptionStep": {
+        "description": {
+          "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически."
+        }
+      },
+      "connectAndUseStep": {
+        "description": {
+          "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов."
+        }
+      }
+    }
+  ],
+  "android": [
+    {
+      "id": "v2raytun",
+      "name": "v2RayTun",
+      "isFeatured": true,
+      "urlScheme": "v2raytun://import/",
+      "installationStep": {
+        "buttons": [
+          {
+            "buttonLink": "https://play.google.com/store/apps/details?id=com.v2raytun.android",
+            "buttonText": {
+              "ru": "Открыть в Google Play"
+            }
+          }
+        ],
+        "description": {
+          "ru": "Откройте страницу в Play Store и установите приложение. Запустите его, в окне разрешения VPN-конфигурации нажмите Разрешить и введите свой пароль."
+        }
+      },
+      "addSubscriptionStep": {
+        "description": {
+          "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически."
+        }
+      },
+      "connectAndUseStep": {
+        "description": {
+          "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов."
+        }
+      },
+      "additionalAfterAddSubscriptionStep": {
+        "title": {
+          "ru": "Выберите какие приложения запускать с впн"
+        },
+        "description": {
+          "ru": "На андроид можно включить ВПН только для определенных приложений, для этого нажмите на Маршрутизация, затем маршрутизация выбранных приложений и в списке приложений выберите те, для которых нужен впн (например ютуб)\n\nДополнительно я советую скачать второй браузер и добавить его в маршрутизацию. Так у вас будет 2 браузера - один будет подключаться к сайтам напрямую, второй через впн"
+        },
+        "buttons": []
+      }
+    },
+    {
+      "id": "happ",
+      "name": "Happ",
+      "isFeatured": false,
+      "urlScheme": "happ://add/",
+      "installationStep": {
+        "buttons": [
+          {
+            "buttonLink": "https://play.google.com/store/apps/details?id=com.happproxy",
+            "buttonText": {
+              "ru": "Открыть в Google Play"
+            }
+          },
+          {
+            "buttonLink": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
+            "buttonText": {
+              "ru": "Скачать APK"
+            }
+          }
+        ],
+        "description": {
+          "ru": "Откройте страницу в Google Play и установите приложение. Или установите приложение из APK файла напрямую, если Google Play не работает."
+        }
+      },
+      "addSubscriptionStep": {
+        "description": {
+          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
+        }
+      },
+      "connectAndUseStep": {
+        "description": {
+          "ru": "Откройте приложение и подключитесь к серверу"
+        }
+      },
+      "additionalAfterAddSubscriptionStep": {
+        "title": {
+          "ru": "Выберите какие приложения запускать с впн"
+        },
+        "description": {
+          "ru": "На андроид можно включить ВПН только для определенных приложений, для этого откройте настройки (шестеренка слева вверху), затем \"Прокси для выбранных приложений\". На самом верху страницы выберите \"ВКЛ\" и в списке приложений выберите те, для которых нужен впн (например ютуб)\n\nДополнительно я советую скачать второй браузер и добавить его в маршрутизацию. Так у вас будет 2 браузера - один будет подключаться к сайтам напрямую, второй через впн"
+        },
+        "buttons": []
+      }
+    }
+  ],
+  "pc": [
+    {
+      "id": "hiddify",
+      "name": "Hiddify",
+      "isFeatured": true,
+      "urlScheme": "hiddify://import/",
+      "installationStep": {
+        "buttons": [
+          {
+            "buttonLink": "https://github.com/hiddify/hiddify-app/releases/download/v2.5.7/Hiddify-Windows-Setup-x64.exe",
+            "buttonText": {
+              "en": "Windows",
+              "fa": "ویندوز",
+              "ru": "Windows"
+            }
+          },
+          {
+            "buttonLink": "https://github.com/hiddify/hiddify-app/releases/download/v2.5.7/Hiddify-MacOS.dmg",
+            "buttonText": {
+              "en": "macOS",
+              "fa": "مک",
+              "ru": "macOS"
+            }
+          },
+          {
+            "buttonLink": "https://github.com/hiddify/hiddify-app/releases/download/v2.5.7/Hiddify-Linux-x64.AppImage",
+            "buttonText": {
+              "en": "Linux",
+              "fa": "لینوکس",
+              "ru": "Linux"
+            }
+          }
+        ],
+        "description": {
+          "en": "In the main section, click the large power button in the center to connect to VPN. If needed, select a different server in the Proxy section",
+          "fa": "در بخش اصلی، دکمه بزرگ روشن/خاموش در مرکز را برای اتصال به VPN کلیک کنید. در صورت نیاز، سرور دیگری را در بخش پروکسی انتخاب کنید",
+          "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. При необходимости выберите другой сервер в разделе Прокси."
+        }
+      },
+      "addSubscriptionStep": {
+        "description": {
+          "en": "Click the button below to add subscription",
+          "fa": "برای افزودن اشتراک روی دکمه زیر کلیک کنید",
+          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
+        }
+      },
+      "connectAndUseStep": {
+        "description": {
+          "en": "In the main section, click the large power button in the center to connect to VPN. Don't forget to select a server from the server list. If needed, select a different server from the server list.",
+          "fa": "در بخش اصلی، دکمه بزرگ روشن/خاموش در مرکز را برای اتصال به VPN کلیک کنید. فراموش نکنید که یک سرور را از لیست سرورها انتخاب کنید. در صورت نیاز، سرور دیگری را از لیست سرورها انتخاب کنید.",
+          "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов."
+        }
+      }
+    },
+    {
+      "id": "clash-verge",
+      "name": "Clash Verge",
+      "isFeatured": false,
+      "urlScheme": "clash://install-config?url=",
+      "installationStep": {
+        "buttons": [
+          {
+            "buttonLink": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.2.2/Clash.Verge_2.2.2_x64-setup.exe",
+            "buttonText": {
+              "en": "Windows",
+              "fa": "ویندوز",
+              "ru": "Windows"
+            }
+          },
+          {
+            "buttonLink": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.2.2/Clash.Verge_2.2.2_x64.dmg",
+            "buttonText": {
+              "en": "macOS (Intel)",
+              "fa": "مک (اینتل)",
+              "ru": "macOS (Intel)"
+            }
+          },
+          {
+            "buttonLink": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.2.2/Clash.Verge_2.2.2_aarch64.dmg",
+            "buttonText": {
+              "en": "macOS (Apple Silicon)",
+              "fa": "مک (Apple Silicon)",
+              "ru": "macOS (Apple Silicon)"
+            }
+          },
+          {
+            "buttonLink": "https://github.com/clash-verge-rev/clash-verge-rev/releases",
+            "buttonText": {
+              "en": "Linux",
+              "fa": "لینوکس",
+              "ru": "Linux"
+            }
+          }
+        ],
+        "description": {
+          "en": "Choose the version for your device, click the button below and install the app.",
+          "fa": "نسخه مناسب برای دستگاه خود را انتخاب کنید، دکمه زیر را فشار دهید و برنامه را نصب کنید",
+          "ru": "Выберите подходящую версию для вашего устройства, нажмите на кнопку ниже и установите приложение."
+        }
+      },
+      "additionalBeforeAddSubscriptionStep": {
+        "buttons": [],
+        "description": {
+          "en": "After launching the app, you can change the language in settings. In the left panel, find the gear icon, then navigate to Verge 设置 and select 语言设置.",
+          "fa": "پس از راه‌اندازی برنامه، می‌توانید زبان را در تنظیمات تغییر دهید. در پنل سمت چپ، نماد چرخ دنده را پیدا کنید، سپس به Verge 设置 بروید و 语言设置 را انتخاب کنید.",
+          "ru": "После запуска приложения вы можете сменить язык в настройках. В левой панели найдите иконку шестеренки, далее ориентируйтесь на Verge 设置 и выберите пункт 语言设置."
+        },
+        "title": {
+          "en": "Change language",
+          "fa": "تغییر زبان",
+          "ru": "Смена языка"
+        }
+      },
+      "addSubscriptionStep": {
+        "description": {
+          "en": "Click the button below to add subscription",
+          "fa": "برای افزودن اشتراک روی دکمه زیر کلیک کنید",
+          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
+        }
+      },
+      "additionalAfterAddSubscriptionStep": {
+        "buttons": [],
+        "title": {
+          "en": "If the subscription is not added",
+          "fa": "اگر اشتراک در برنامه نصب نشده است",
+          "ru": "Если подписка не добавилась"
+        },
+        "description": {
+          "en": "If nothing happens after clicking the button, add the subscription manually. Click the Get Link button in the top right corner of this page, copy the link. In Clash Verge, go to the Profiles section and paste the link in the text field, then click the Import button.",
+          "fa": "اگر پس از کلیک روی دکمه اتفاقی نیفتاد، اشتراک را به صورت دستی اضافه کنید. در گوشه بالا سمت راست این صفحه روی دکمه دریافت لینک کلیک کنید، لینک را کپی کنید. در Clash Verge به بخش پروفایل‌ها بروید و لینک را در فیلد متنی وارد کنید، سپس روی دکمه وارد کردن کلیک کنید.",
+          "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Нажмите на этой страницу кнопку Получить ссылку в правом верхнем углу, скопируйте ссылку. В Clash Verge перейдите в раздел Профили и вставьте ссылку в текстовое поле, затем нажмите на кнопку Импорт."
+        }
+      },
+      "connectAndUseStep": {
+        "description": {
+          "en": "You can select a server in the Proxy section, and enable VPN in the Settings section. Set the TUN Mode switch to ON.",
+          "fa": "می‌توانید در بخش پروکسی سرور را انتخاب کنید و در بخش تنظیمات VPN را فعال کنید. کلید TUN Mode را در حالت روشن قرار دهید.",
+          "ru": "Выбрать сервер можно в разделе Прокси, включить VPN можно в разделе Настройки. Установите переключатель TUN Mode в положение ВКЛ."
+        }
+      }
+    }
+  ]
+}
