@@ -3,7 +3,7 @@
     {
       "id": "v2raytun",
       "name": "v2RayTun",
-      "isFeatured": true,
+      "isFeatured": false,
       "urlScheme": "v2raytun://import/",
       "installationStep": {
         "buttons": [
@@ -66,13 +66,42 @@
           "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов."
         }
       }
+    },
+    {
+      "id": "happ",
+      "name": "Happ",
+      "isFeatured": true,
+      "urlScheme": "happ://add/",
+      "installationStep": {
+        "buttons": [
+          {
+            "buttonLink": "https://apps.apple.com/ru/app/happ-proxy-utility-plus/id6746188973",
+            "buttonText": {
+              "ru": "Открыть в App Store"
+            }
+          }
+        ],
+        "description": {
+          "ru": "Откройте страницу в App Store и установите приложение."
+        }
+      },
+      "addSubscriptionStep": {
+        "description": {
+          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
+        }
+      },
+      "connectAndUseStep": {
+        "description": {
+          "ru": "Откройте приложение и подключитесь к серверу"
+        }
+      }
     }
   ],
   "android": [
     {
       "id": "v2raytun",
       "name": "v2RayTun",
-      "isFeatured": true,
+      "isFeatured": false,
       "urlScheme": "v2raytun://import/",
       "installationStep": {
         "buttons": [
@@ -110,7 +139,7 @@
     {
       "id": "happ",
       "name": "Happ",
-      "isFeatured": false,
+      "isFeatured": true,
       "urlScheme": "happ://add/",
       "installationStep": {
         "buttons": [
@@ -156,7 +185,7 @@
     {
       "id": "hiddify",
       "name": "Hiddify",
-      "isFeatured": true,
+      "isFeatured": false,
       "urlScheme": "hiddify://import/",
       "installationStep": {
         "buttons": [
@@ -209,7 +238,7 @@
     {
       "id": "clash-verge",
       "name": "Clash Verge",
-      "isFeatured": false,
+      "isFeatured": true,
       "urlScheme": "clash://install-config?url=",
       "installationStep": {
         "buttons": [
