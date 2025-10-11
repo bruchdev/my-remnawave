@@ -8,7 +8,7 @@
 
 1. Копировать `app-config.json` в контейнер
 ```shell
-curl -O https://raw.githubusercontent.com/bruch-alex/my-remnawave/refs/heads/main/app-config.json
+curl -O https://raw.githubusercontent.com/bruch-alex/my-remnawave/refs/heads/main/subscription-page/app-config.json
 ```
 
 2. Добавить файл в контейнер
