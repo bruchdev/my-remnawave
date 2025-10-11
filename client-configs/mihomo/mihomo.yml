@@ -97,6 +97,7 @@ proxy-groups:
     tolerance: 150
     url: https://cp.cloudflare.com/generate_204
     interval: 300
+    hidden: true
     proxies:
       # LEAVE THIS LINE!
   - name: 📶 First Available
@@ -104,6 +105,7 @@ proxy-groups:
     type: fallback
     url: https://cp.cloudflare.com/generate_204
     interval: 300
+    hidden: true
     proxies:
       # LEAVE THIS LINE!
 
