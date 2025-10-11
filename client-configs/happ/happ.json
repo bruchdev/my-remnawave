@@ -1,0 +1,31 @@
+{
+  "Name": "Russia-direct",
+  "GlobalProxy": "true",
+  "RemoteDNSType": "DoU",
+  "RemoteDNSDomain": "",
+  "RemoteDNSIP": "1.1.1.1",
+  "DomesticDNSType": "DoU",
+  "DomesticDNSDomain": "",
+  "DomesticDNSIP": "77.88.8.8",
+  "Geoipurl": "https://github.com/frayZV/simple-ru-geoip/releases/latest/download/geoip.dat",
+  "Geositeurl": "https://github.com/frayZV/simple-ru-geosite/releases/latest/download/geosite.dat",
+  "LastUpdated": "",
+  "DnsHosts": {},
+  "DirectSites": [
+    "geosite:private",
+    "geosite:category-ru",
+    "geosite:apple",
+    "geosite:google-play"
+  ],
+  "DirectIp": [
+    "geoip:ru",
+    "geoip:private"
+  ],
+  "ProxySites": [],
+  "ProxyIp": [],
+  "BlockSites": [],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "true",
+  "UseChunkFiles": "true"
+}
