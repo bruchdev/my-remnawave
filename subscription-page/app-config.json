@@ -68,51 +68,21 @@
         }
       },
       "connectAndUseStep": {
+        "buttons": [
+          {
+            "buttonLink": "happ://open",
+            "buttonText": {
+              "ru": "Открыть приложение"
+            }
+          }
+        ],
         "description": {
-          "ru": "Откройте приложение и подключитесь к серверу"
+          "ru": "Нажмите на кнопку ниже чтобы открыть приложение, затем на большую круглую кнопку чтобы подключиться к ВПН."
         }
       }
     }
   ],
   "android": [
-    {
-      "id": "v2raytun",
-      "name": "v2RayTun",
-      "isFeatured": false,
-      "urlScheme": "v2raytun://import/",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://play.google.com/store/apps/details?id=com.v2raytun.android",
-            "buttonText": {
-              "ru": "Открыть в Google Play"
-            }
-          }
-        ],
-        "description": {
-          "ru": "Откройте страницу в Play Store и установите приложение. Запустите его, в окне разрешения VPN-конфигурации нажмите Разрешить и введите свой пароль."
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически."
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов."
-        }
-      },
-      "additionalAfterAddSubscriptionStep": {
-        "title": {
-          "ru": "Выберите какие приложения запускать с впн"
-        },
-        "description": {
-          "ru": "На андроид можно включить ВПН только для определенных приложений, для этого нажмите на Маршрутизация, затем маршрутизация выбранных приложений и в списке приложений выберите те, для которых нужен впн (например ютуб)\n\nДополнительно я советую скачать второй браузер и добавить его в маршрутизацию. Так у вас будет 2 браузера - один будет подключаться к сайтам напрямую, второй через впн"
-        },
-        "buttons": []
-      }
-    },
     {
       "id": "happ",
       "name": "Happ",
@@ -153,96 +123,161 @@
         },
         "description": {
           "ru": "На андроид можно включить ВПН только для определенных приложений, для этого откройте настройки (шестеренка слева вверху), затем \"Прокси для выбранных приложений\". На самом верху страницы выберите \"ВКЛ\" и в списке приложений выберите те, для которых нужен впн (например ютуб)\n\nДополнительно я советую скачать второй браузер и добавить его в маршрутизацию. Так у вас будет 2 браузера - один будет подключаться к сайтам напрямую, второй через впн"
-        },
-        "buttons": []
+        }
       }
-    }
-  ],
-  "pc": [
+    },
     {
-      "id": "clash-verge",
-      "name": "Clash Verge",
+      "id": "flclashx",
+      "name": "FlClashX",
       "isFeatured": true,
-      "urlScheme": "clash://install-config?url=",
+      "urlScheme": "flclashx://install-config?url=",
       "installationStep": {
         "buttons": [
           {
-            "buttonLink": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_x64-setup.exe",
+            "buttonLink": "https://github.com/pluralplay/FlClashX/releases/download/v0.2.1/FlClashX-0.2.1-android-arm64-v8a.apk",
             "buttonText": {
-              "en": "Windows",
-              "fa": "ویندوز",
-              "ru": "Windows"
+              "ru": "Скачать APK"
             }
           },
           {
-            "buttonLink": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_x64.dmg",
+            "buttonLink": "https://legiz-ru.github.io/Orion/redirect-page/?redirect_to=obtainium://app/%7B%22id%22%3A%22com.follow.clashx%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Fpluralplay%2FFlClashX%22%2C%22author%22%3A%22pluralplay%22%2C%22name%22%3A%22FlClashX%22%2C%22preferredApkIndex%22%3A0%2C%22additionalSettings%22%3A%22%7B%5C%22includePrereleases%5C%22%3Afalse%2C%5C%22fallbackToOlderReleases%5C%22%3Atrue%2C%5C%22filterReleaseTitlesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22filterReleaseNotesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22verifyLatestTag%5C%22%3Afalse%2C%5C%22sortMethodChoice%5C%22%3A%5C%22date%5C%22%2C%5C%22useLatestAssetDateAsReleaseDate%5C%22%3Afalse%2C%5C%22releaseTitleAsVersion%5C%22%3Afalse%2C%5C%22trackOnly%5C%22%3Afalse%2C%5C%22versionExtractionRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22matchGroupToUse%5C%22%3A%5C%22%5C%22%2C%5C%22versionDetection%5C%22%3Atrue%2C%5C%22releaseDateAsVersion%5C%22%3Afalse%2C%5C%22useVersionCodeAsOSVersion%5C%22%3Afalse%2C%5C%22apkFilterRegEx%5C%22%3A%5C%22android-arm64-v8a%5C%22%2C%5C%22invertAPKFilter%5C%22%3Afalse%2C%5C%22autoApkFilterByArch%5C%22%3Atrue%2C%5C%22appName%5C%22%3A%5C%22FlClashX%5C%22%2C%5C%22appAuthor%5C%22%3A%5C%22pluralplay%5C%22%2C%5C%22shizukuPretendToBeGooglePlay%5C%22%3Afalse%2C%5C%22allowInsecure%5C%22%3Afalse%2C%5C%22exemptFromBackgroundUpdates%5C%22%3Afalse%2C%5C%22skipUpdateNotifications%5C%22%3Afalse%2C%5C%22about%5C%22%3A%5C%22A%20fork%20of%20the%20multi-platform%20proxy%20client%20FlClash%20based%20on%20ClashMeta%2C%20simple%20and%20easy%20to%20use%2C%20open%20source%20and%20ad-free.%5C%22%2C%5C%22refreshBeforeDownload%5C%22%3Afalse%7D%22%2C%22overrideSource%22%3A%22GitHub%22%7D",
             "buttonText": {
-              "en": "macOS (Intel)",
-              "fa": "مک (اینتل)",
-              "ru": "macOS (Intel)"
-            }
-          },
-          {
-            "buttonLink": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_aarch64.dmg",
-            "buttonText": {
-              "en": "macOS (Apple Silicon)",
-              "fa": "مک (Apple Silicon)",
-              "ru": "macOS (Apple Silicon)"
-            }
-          },
-          {
-            "buttonLink": "https://github.com/clash-verge-rev/clash-verge-rev/releases",
-            "buttonText": {
-              "en": "Linux",
-              "fa": "لینوکس",
-              "ru": "Linux"
+              "ru": "Добавить в Obtainium"
             }
           }
         ],
         "description": {
-          "en": "Choose the version for your device, click the button below and install the app.",
-          "fa": "نسخه مناسب برای دستگاه خود را انتخاب کنید، دکمه زیر را فشار دهید و برنامه را نصب کنید",
-          "ru": "Выберите подходящую версию для вашего устройства, нажмите на кнопку ниже и установите приложение."
-        }
-      },
-      "additionalBeforeAddSubscriptionStep": {
-        "buttons": [],
-        "description": {
-          "en": "After launching the app, you can change the language in settings. In the left panel, find the gear icon, then navigate to Verge 设置 and select 语言设置.",
-          "fa": "پس از راه‌اندازی برنامه، می‌توانید زبان را در تنظیمات تغییر دهید. در پنل سمت چپ، نماد چرخ دنده را پیدا کنید، سپس به Verge 设置 بروید و 语言设置 را انتخاب کنید.",
-          "ru": "После запуска приложения вы можете сменить язык в настройках. В левой панели найдите иконку шестеренки, далее ориентируйтесь на Verge 设置 и выберите пункт 语言设置."
-        },
-        "title": {
-          "en": "Change language",
-          "fa": "تغییر زبان",
-          "ru": "Смена языка"
+          "ru": "Скачайте и установите FlClash APK"
         }
       },
       "addSubscriptionStep": {
         "description": {
-          "en": "Click the button below to add subscription",
-          "fa": "برای افزودن اشتراک روی دکمه زیر کلیک کنید",
           "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
         }
       },
       "additionalAfterAddSubscriptionStep": {
         "buttons": [],
         "title": {
-          "en": "If the subscription is not added",
-          "fa": "اگر اشتراک در برنامه نصب نشده است",
           "ru": "Если подписка не добавилась"
         },
         "description": {
-          "en": "If nothing happens after clicking the button, add the subscription manually. Click the Get Link button in the top right corner of this page, copy the link. In Clash Verge, go to the Profiles section and paste the link in the text field, then click the Import button.",
-          "fa": "اگر پس از کلیک روی دکمه اتفاقی نیفتاد، اشتراک را به صورت دستی اضافه کنید. در گوشه بالا سمت راست این صفحه روی دکمه دریافت لینک کلیک کنید، لینک را کپی کنید. در Clash Verge به بخش پروفایل‌ها بروید و لینک را در فیلد متنی وارد کنید، سپس روی دکمه وارد کردن کلیک کنید.",
-          "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Нажмите на этой страницу кнопку Получить ссылку в правом верхнем углу, скопируйте ссылку. В Clash Verge перейдите в раздел Профили и вставьте ссылку в текстовое поле, затем нажмите на кнопку Импорт."
+          "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Нажмите на этой страницу кнопку Получить ссылку в правом верхнем углу, скопируйте ссылку. В FlClash перейдите в раздел Профили, нажмите кнопку +, выберите URL, вставьте вашу скопированную ссылку и нажмите Отправить"
         }
       },
       "connectAndUseStep": {
         "description": {
-          "en": "You can select a server in the Proxy section, and enable VPN in the Settings section. Set the TUN Mode switch to ON.",
-          "fa": "می‌توانید در بخش پروکسی سرور را انتخاب کنید و در بخش تنظیمات VPN را فعال کنید. کلید TUN Mode را در حالت روشن قرار دهید.",
-          "ru": "Выбрать сервер можно в разделе Прокси, включить VPN можно в разделе Настройки. Установите переключатель TUN Mode в положение ВКЛ."
+          "ru": "Выберите добавленный профиль в разделе Профили. В Панели управления нажмите кнопку включить в правом нижнем углу. После запуска в разделе Прокси вы можете изменить выбор сервера к которому вас подключит. "
+        }
+      }
+    }
+  ],
+  "pc": [
+    {
+      "id": "flclashx",
+      "name": "FlClashX",
+      "isFeatured": true,
+      "urlScheme": "flclashx://install-config?url=",
+      "installationStep": {
+        "buttons": [
+          {
+            "buttonLink": "https://github.com/pluralplay/FlClashX/releases/download/v0.2.1/FlClashX-0.2.1-windows-amd64-setup.exe",
+            "buttonText": {
+              "ru": "Windows (Установщик)"
+            }
+          },
+          {
+            "buttonLink": "https://github.com/pluralplay/FlClashX/releases/download/v0.2.1/FlClashX-0.2.1-windows-amd64.zip",
+            "buttonText": {
+              "ru": "Windows (Портативная)"
+            }
+          },
+          {
+            "buttonLink": "https://github.com/pluralplay/FlClashX/releases/download/v0.2.1/FlClashX-0.2.1-windows-arm64-setup.exe",
+            "buttonText": {
+              "ru": "Windows на ARM (Установщик)"
+            }
+          },
+          {
+            "buttonLink": "https://github.com/pluralplay/FlClashX/releases/download/v0.2.1/FlClashX-0.2.1-windows-arm64.zip",
+            "buttonText": {
+              "ru": "Windows на ARM (Портативная)"
+            }
+          }
+        ],
+        "description": {
+          "ru": "Выберите подходящую версию для вашего устройства, нажмите на кнопку ниже и установите приложение."
+        }
+      },
+      "addSubscriptionStep": {
+        "description": {
+          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
+        }
+      },
+      "additionalAfterAddSubscriptionStep": {
+        "buttons": [],
+        "title": {
+          "ru": "Если подписка не добавилась"
+        },
+        "description": {
+          "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Нажмите на этой страницу кнопку Получить ссылку в правом верхнем углу, скопируйте ссылку. В FlClash перейдите в раздел Профили, нажмите кнопку +, выберите URL, вставьте вашу скопированную ссылку и нажмите Отправить"
+        }
+      },
+      "connectAndUseStep": {
+        "description": {
+          "ru": "Выберите добавленный профиль в разделе Профили. В Панели управления нажмите кнопку включить в правом нижнем углу, а затем включите переключатель у пункта TUN. После запуска в разделе Прокси вы можете изменить выбор сервера к которому вас подключит. "
+        }
+      }
+    },
+    {
+      "id": "koala-clash",
+      "name": "Koala Clash",
+      "isFeatured": false,
+      "urlScheme": "koala-clash://install-config?url=",
+      "installationStep": {
+        "buttons": [
+          {
+            "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases/latest/download/Koala.Clash_x64-setup.exe",
+            "buttonText": {
+              "ru": "Windows (Установщик)"
+            }
+          },
+          {
+            "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases/latest/download/Koala.Clash_arm64-setup.exe",
+            "buttonText": {
+              "ru": "Windows на ARM (Установщик)"
+            }
+          }
+        ],
+        "description": {
+          "ru": "Выберите подходящую версию для вашего устройства, нажмите на кнопку ниже и установите приложение."
+        }
+      },
+      "additionalBeforeAddSubscriptionStep": {
+        "buttons": [],
+        "description": {
+          "ru": "Если вы ранее использовали Clash Verge Rev, то его требуется удалить перед установкой Koala Clash."
+        },
+        "title": {
+          "ru": "Предупреждение"
+        }
+      },
+      "addSubscriptionStep": {
+        "description": {
+          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
+        }
+      },
+      "additionalAfterAddSubscriptionStep": {
+        "buttons": [],
+        "title": {
+          "ru": "Если подписка не добавилась"
+        },
+        "description": {
+          "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Нажмите на этой странице кнопку Получить ссылку в правом верхнем углу, скопируйте ссылку. В Koala Clash перейдите на главную страницу, нажмите кнопку Добавить профиль и вставьте ссылку в текстовое поле, затем нажмите на кнопку Импорт."
+        }
+      },
+      "connectAndUseStep": {
+        "description": {
+          "ru": "Выбрать сервер можно внизу на главной странице, включить VPN можно нажав на главной странице на большую кнопку по центру."
         }
       }
     }
