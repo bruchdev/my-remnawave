@@ -39,35 +39,6 @@
       }
     },
     {
-      "id": "streisand",
-      "name": "Streisand",
-      "isFeatured": false,
-      "urlScheme": "streisand://import/",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://apps.apple.com/ru/app/streisand/id6450534064",
-            "buttonText": {
-              "ru": "Открыть в App Store"
-            }
-          }
-        ],
-        "description": {
-          "ru": "Откройте страницу в App Store и установите приложение. Запустите его, в окне разрешения VPN-конфигурации нажмите Allow и введите свой пароль."
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически."
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов."
-        }
-      }
-    },
-    {
       "id": "happ",
       "name": "Happ",
       "isFeatured": true,
