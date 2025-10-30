@@ -138,16 +138,10 @@
             "buttonText": {
               "ru": "Скачать APK"
             }
-          },
-          {
-            "buttonLink": "https://legiz-ru.github.io/Orion/redirect-page/?redirect_to=obtainium://app/%7B%22id%22%3A%22com.follow.clashx%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Fpluralplay%2FFlClashX%22%2C%22author%22%3A%22pluralplay%22%2C%22name%22%3A%22FlClashX%22%2C%22preferredApkIndex%22%3A0%2C%22additionalSettings%22%3A%22%7B%5C%22includePrereleases%5C%22%3Afalse%2C%5C%22fallbackToOlderReleases%5C%22%3Atrue%2C%5C%22filterReleaseTitlesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22filterReleaseNotesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22verifyLatestTag%5C%22%3Afalse%2C%5C%22sortMethodChoice%5C%22%3A%5C%22date%5C%22%2C%5C%22useLatestAssetDateAsReleaseDate%5C%22%3Afalse%2C%5C%22releaseTitleAsVersion%5C%22%3Afalse%2C%5C%22trackOnly%5C%22%3Afalse%2C%5C%22versionExtractionRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22matchGroupToUse%5C%22%3A%5C%22%5C%22%2C%5C%22versionDetection%5C%22%3Atrue%2C%5C%22releaseDateAsVersion%5C%22%3Afalse%2C%5C%22useVersionCodeAsOSVersion%5C%22%3Afalse%2C%5C%22apkFilterRegEx%5C%22%3A%5C%22android-arm64-v8a%5C%22%2C%5C%22invertAPKFilter%5C%22%3Afalse%2C%5C%22autoApkFilterByArch%5C%22%3Atrue%2C%5C%22appName%5C%22%3A%5C%22FlClashX%5C%22%2C%5C%22appAuthor%5C%22%3A%5C%22pluralplay%5C%22%2C%5C%22shizukuPretendToBeGooglePlay%5C%22%3Afalse%2C%5C%22allowInsecure%5C%22%3Afalse%2C%5C%22exemptFromBackgroundUpdates%5C%22%3Afalse%2C%5C%22skipUpdateNotifications%5C%22%3Afalse%2C%5C%22about%5C%22%3A%5C%22A%20fork%20of%20the%20multi-platform%20proxy%20client%20FlClash%20based%20on%20ClashMeta%2C%20simple%20and%20easy%20to%20use%2C%20open%20source%20and%20ad-free.%5C%22%2C%5C%22refreshBeforeDownload%5C%22%3Afalse%7D%22%2C%22overrideSource%22%3A%22GitHub%22%7D",
-            "buttonText": {
-              "ru": "Добавить в Obtainium"
-            }
           }
         ],
         "description": {
-          "ru": "Скачайте и установите FlClash APK"
+          "ru": "Скачайте и установите FlClashX APK"
         }
       },
       "addSubscriptionStep": {
@@ -161,7 +155,7 @@
           "ru": "Если подписка не добавилась"
         },
         "description": {
-          "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Нажмите на этой страницу кнопку Получить ссылку в правом верхнем углу, скопируйте ссылку. В FlClash перейдите в раздел Профили, нажмите кнопку +, выберите URL, вставьте вашу скопированную ссылку и нажмите Отправить"
+          "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Скопируйте ссылку этой страницы, затем в FlClashX перейдите в раздел Профили, нажмите кнопку +, выберите URL, вставьте вашу скопированную ссылку и нажмите Отправить"
         }
       },
       "connectAndUseStep": {
@@ -219,12 +213,12 @@
           "ru": "Если подписка не добавилась"
         },
         "description": {
-          "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Нажмите на этой страницу кнопку Получить ссылку в правом верхнем углу, скопируйте ссылку. В FlClash перейдите в раздел Профили, нажмите кнопку +, выберите URL, вставьте вашу скопированную ссылку и нажмите Отправить"
+          "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Скопируйте ссылку этой страницы, затем в FlClashX перейдите в раздел Профили, нажмите кнопку +, выберите URL, вставьте вашу скопированную ссылку и нажмите Отправить"
         }
       },
       "connectAndUseStep": {
         "description": {
-          "ru": "Выберите добавленный профиль в разделе Профили. В Панели управления нажмите кнопку включить в правом нижнем углу, а затем включите переключатель у пункта TUN. После запуска в разделе Прокси вы можете изменить выбор сервера к которому вас подключит. "
+          "ru": "Выберите добавленный профиль в разделе Профили. В Панели управления нажмите кнопку включить в правом нижнем углу. После запуска в разделе Прокси вы можете изменить выбор сервера к которому вас подключит. "
         }
       }
     },
