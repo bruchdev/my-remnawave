@@ -1,12 +1,12 @@
 {
-  "Name": "Russia-direct",
+  "Name": "Я в России",
   "GlobalProxy": "true",
   "RemoteDNSType": "DoU",
-  "RemoteDNSDomain": "",
-  "RemoteDNSIP": "1.1.1.1",
+  "RemoteDNSDomain": "https://dns.adguard-dns.com/dns-query",
+  "RemoteDNSIP": "94.140.14.14",
   "DomesticDNSType": "DoU",
-  "DomesticDNSDomain": "",
-  "DomesticDNSIP": "77.88.8.8",
+  "DomesticDNSDomain": "https://dns.adguard.com/dns-query",
+  "DomesticDNSIP": "94.140.15.15",
   "Geoipurl": "https://github.com/frayZV/simple-ru-geoip/releases/latest/download/geoip.dat",
   "Geositeurl": "https://github.com/frayZV/simple-ru-geosite/releases/latest/download/geosite.dat",
   "LastUpdated": "",
@@ -15,17 +15,20 @@
     "geosite:private",
     "geosite:category-ru",
     "geosite:apple",
-    "geosite:google-play"
+    "geosite:twitch"
   ],
   "DirectIp": [
     "geoip:ru",
     "geoip:private"
   ],
-  "ProxySites": [],
+  "ProxySites": [
+    "geosite:youtube",
+    "geosite:category-ban-ru"
+  ],
   "ProxyIp": [],
   "BlockSites": [],
   "BlockIp": [],
   "DomainStrategy": "IPIfNonMatch",
-  "FakeDNS": "true",
+  "FakeDNS": "false",
   "UseChunkFiles": "true"
 }
