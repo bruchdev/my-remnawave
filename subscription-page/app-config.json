@@ -196,50 +196,40 @@
       {
         "id": "happ",
         "name": "Happ",
-        "isFeatured": false,
+        "isFeatured": true,
         "urlScheme": "happ://add/",
         "installationStep": {
           "buttons": [
             {
               "buttonLink": "https://play.google.com/store/apps/details?id=com.happproxy",
               "buttonText": {
-                "ru": "Открыть в Google Play",
-                "en": "Open in Google Play"
+                "en": "Open in Google Play",
+                "ru": "Открыть в Google Play"
               }
             },
             {
               "buttonLink": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
               "buttonText": {
-                "ru": "Скачать APK",
-                "en": "Download APK"
+                "en": "Download APK",
+                "ru": "Скачать APK"
               }
             }
           ],
           "description": {
-            "ru": "Откройте страницу в Google Play и установите приложение. Или установите приложение из APK файла напрямую, если Google Play не работает.",
-            "en": "Open the page in Google Play and install the app. Or install the app from the APK file directly if Google Play is not working."
+            "en": "Open the page in Google Play and install the app. Or install the app directly from the APK file if Google Play is not working.",
+            "ru": "Откройте страницу в Google Play и установите приложение. Или установите приложение из APK файла напрямую, если Google Play не работает."
           }
         },
         "addSubscriptionStep": {
           "description": {
-            "ru": "Нажмите кнопку ниже, чтобы добавить подписку",
-            "en": "Click the button below to add the subscription"
+            "en": "Click the button below to add subscription",
+            "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
           }
         },
         "connectAndUseStep": {
           "description": {
-            "ru": "Откройте приложение и подключитесь к серверу",
-            "en": "Open the app and connect to a server"
-          }
-        },
-        "additionalAfterAddSubscriptionStep": {
-          "title": {
-            "ru": "Выберите какие приложения запускать с впн",
-            "en": "Select which apps to run with VPN"
-          },
-          "description": {
-            "ru": "На андроид можно включить ВПН только для определенных приложений, для этого откройте настройки (шестеренка слева вверху), затем \"Прокси для выбранных приложений\". На самом верху страницы выберите \"ВКЛ\" и в списке приложений выберите те, для которых нужен впн (например ютуб)\n\nДополнительно я советую скачать второй браузер и добавить его в маршрутизацию. Так у вас будет 2 браузера - один будет подключаться к сайтам напрямую, второй через впн",
-            "en": "On Android, you can enable VPN only for certain applications. To do this, open the settings (the gear icon in the upper left), then \"Proxy for selected applications.\" At the very top of the page, select \"ON\" and in the list of applications, choose those that need VPN (for example, YouTube).\n\nAdditionally, I recommend downloading a second browser and adding it to the routing. This way you will have 2 browsers - one will connect to sites directly, the other through VPN"
+            "en": "Open the app and connect to the server",
+            "ru": "Откройте приложение и подключитесь к серверу"
           }
         }
       }
