@@ -1,279 +1,358 @@
 {
-  "ios": [
-    {
-      "id": "v2raytun",
-      "name": "v2RayTun",
-      "isFeatured": false,
-      "urlScheme": "v2raytun://import/",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://apps.apple.com/ru/app/v2raytun/id6476628951",
-            "buttonText": {
-              "ru": "Открыть в App Store"
-            }
-          }
-        ],
-        "description": {
-          "ru": "Откройте страницу в App Store и установите приложение. Запустите его, в окне разрешения VPN-конфигурации нажмите Разрешить и введите свой пароль."
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически."
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов."
-        }
-      },
-      "additionalAfterAddSubscriptionStep": {
-        "title": {
-          "ru": "Включите службы"
-        },
-        "description": {
-          "ru": "На главном экране приложения нажмите на Службы, включите их и замтем активируйте домены:\n*.ru, *.kz, *.by и *.рф\n\nПосле этого промотайте страницу вниз и активируйте сервисы:\nApple, VK, Tinkoff, SberBank, Telegram, Twich, Yandex"
-        },
-        "buttons": []
-      }
-    },
-    {
-      "id": "happ",
-      "name": "Happ",
-      "isFeatured": true,
-      "urlScheme": "happ://add/",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://apps.apple.com/ru/app/happ-proxy-utility-plus/id6746188973",
-            "buttonText": {
-              "ru": "Открыть в App Store (Россия)"
-            }
-          },
-          {
-            "buttonLink": "https://apps.apple.com/us/app/happ-proxy-utility/id6504287215",
-            "buttonText": {
-              "ru": "Открыть в App Store (другие страны)"
-            }
-          }
-        ],
-        "description": {
-          "ru": "Откройте страницу в App Store и установите приложение."
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
-        }
-      },
-      "connectAndUseStep": {
-        "buttons": [
-          {
-            "buttonLink": "happ://open",
-            "buttonText": {
-              "ru": "Открыть приложение"
-            }
-          }
-        ],
-        "description": {
-          "ru": "Нажмите на кнопку ниже чтобы открыть приложение, затем на большую круглую кнопку чтобы подключиться к ВПН."
-        }
-      }
+  "config": {
+    "additionalLocales": [
+      "ru",
+      "zh",
+      "fa"
+    ],
+    "branding": {
+      "name": "Subscription",
+      "logoUrl": "https://remna.st/img/logo.svg",
+      "supportUrl": "https://t.me"
     }
-  ],
-  "android": [
-    {
-      "id": "happ",
-      "name": "Happ",
-      "isFeatured": true,
-      "urlScheme": "happ://add/",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://play.google.com/store/apps/details?id=com.happproxy",
-            "buttonText": {
-              "ru": "Открыть в Google Play"
+  },
+  "platforms": {
+    "ios": [
+      {
+        "id": "happ",
+        "name": "Happ",
+        "isFeatured": true,
+        "urlScheme": "happ://add/",
+        "installationStep": {
+          "buttons": [
+            {
+              "buttonLink": "https://apps.apple.com/ru/app/happ-proxy-utility-plus/id6746188973",
+              "buttonText": {
+                "ru": "Открыть в App Store (Россия)",
+                "en": "Open in App Store [Ru]"
+              }
+            },
+            {
+              "buttonLink": "https://apps.apple.com/us/app/happ-proxy-utility/id6504287215",
+              "buttonText": {
+                "ru": "Открыть в App Store (другие страны)",
+                "en": "Open in App Store [EU]"
+              }
             }
-          },
-          {
-            "buttonLink": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
-            "buttonText": {
-              "ru": "Скачать APK"
-            }
+          ],
+          "description": {
+            "ru": "Откройте страницу в App Store и установите приложение.",
+            "en": "Open the page in App Store and install the app. Launch it, in the VPN configuration permission window click Allow and enter your passcode."
           }
-        ],
-        "description": {
-          "ru": "Откройте страницу в Google Play и установите приложение. Или установите приложение из APK файла напрямую, если Google Play не работает."
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "ru": "Откройте приложение и подключитесь к серверу"
-        }
-      },
-      "additionalAfterAddSubscriptionStep": {
-        "title": {
-          "ru": "Выберите какие приложения запускать с впн"
         },
-        "description": {
-          "ru": "На андроид можно включить ВПН только для определенных приложений, для этого откройте настройки (шестеренка слева вверху), затем \"Прокси для выбранных приложений\". На самом верху страницы выберите \"ВКЛ\" и в списке приложений выберите те, для которых нужен впн (например ютуб)\n\nДополнительно я советую скачать второй браузер и добавить его в маршрутизацию. Так у вас будет 2 браузера - один будет подключаться к сайтам напрямую, второй через впн"
+        "addSubscriptionStep": {
+          "description": {
+            "ru": "Нажмите кнопку ниже, чтобы добавить подписку",
+            "en": "Click the button below — the app will open and the subscription will be added automatically"
+          }
+        },
+        "connectAndUseStep": {
+          "buttons": [
+            {
+              "buttonLink": "happ://open",
+              "buttonText": {
+                "ru": "Открыть приложение",
+                "en": "Open the app"
+              }
+            }
+          ],
+          "description": {
+            "ru": "Нажмите на кнопку ниже чтобы открыть приложение, затем на большую круглую кнопку чтобы подключиться к ВПН.",
+            "en": "In the main section, click the big round button in the center to connect to the VPN. Don't forget to select a server from the server list. If necessary, select another server from the server list."
+          }
+        }
+      },
+      {
+        "id": "v2raytun",
+        "name": "v2RayTun",
+        "isFeatured": false,
+        "urlScheme": "v2raytun://import/",
+        "installationStep": {
+          "buttons": [
+            {
+              "buttonLink": "https://apps.apple.com/ru/app/v2raytun/id6476628951",
+              "buttonText": {
+                "ru": "Открыть в App Store",
+                "en": "Open in App Store"
+              }
+            }
+          ],
+          "description": {
+            "ru": "Откройте страницу в App Store и установите приложение. Запустите его, в окне разрешения VPN-конфигурации нажмите Разрешить и введите свой пароль."
+          }
+        },
+        "addSubscriptionStep": {
+          "description": {
+            "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически.",
+            "en": "Click the button below — the app will open and the subscription will be added automatically"
+          }
+        },
+        "connectAndUseStep": {
+          "description": {
+            "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов.",
+            "en": "In the main section, click the big round button in the center to connect to the VPN. Don't forget to select a server from the server list. If necessary, select another server from the server list."
+          }
+        },
+        "additionalAfterAddSubscriptionStep": {
+          "title": {
+            "ru": "Включите службы",
+            "en": "Enable Services"
+          },
+          "description": {
+            "ru": "На главном экране приложения нажмите на Службы, включите их и замтем активируйте домены:\n*.ru, *.kz, *.by и *.рф\n\nПосле этого промотайте страницу вниз и активируйте сервисы:\nApple, VK, Tinkoff, SberBank, Telegram, Twich, Yandex",
+            "en": "On the main screen of the app, tap Services, enable them, and then activate the domains:\n*.ru, *.kz, *.by, and *.рф\n\nAfter that, scroll down the page and activate the services:\nApple, VK, Tinkoff, SberBank, Telegram, Twich, Yandex"
+          },
+          "buttons": []
         }
       }
-    },
-    {
-      "id": "flclashx",
-      "name": "FlClashX",
-      "isFeatured": true,
-      "urlScheme": "flclashx://install-config?url=",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://github.com/pluralplay/FlClashX/releases/download/v0.2.1/FlClashX-0.2.1-android-arm64-v8a.apk",
-            "buttonText": {
-              "ru": "Скачать APK"
+    ],
+    "android": [
+      {
+        "id": "flowvy",
+        "name": "Flowvy",
+        "isFeatured": true,
+        "urlScheme": "flowvy://install-config?url=",
+        "installationStep": {
+          "buttons": [
+            {
+              "buttonLink": "https://github.com/pluralplay/FlClashX/releases/download/v0.2.1/FlClashX-0.2.1-android-arm64-v8a.apk",
+              "buttonText": {
+                "ru": "Скачать APK",
+                "en": "Download APK"
+              }
             }
+          ],
+          "description": {
+            "ru": "Скачайте и установите FlClashX APK",
+            "en": "Download and install FlClashX APK"
           }
-        ],
-        "description": {
-          "ru": "Скачайте и установите FlClashX APK"
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
-        }
-      },
-      "additionalAfterAddSubscriptionStep": {
-        "buttons": [],
-        "title": {
-          "ru": "Если подписка не добавилась"
         },
-        "description": {
-          "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Скопируйте ссылку этой страницы, затем в FlClashX перейдите в раздел Профили, нажмите кнопку +, выберите URL, вставьте вашу скопированную ссылку и нажмите Отправить"
+        "addSubscriptionStep": {
+          "description": {
+            "ru": "Нажмите кнопку ниже, чтобы добавить подписку",
+            "en": "Click the button below to add the subscription"
+          }
+        },
+        "additionalAfterAddSubscriptionStep": {
+          "buttons": [],
+          "title": {
+            "ru": "Если подписка не добавилась",
+            "en": "If the subscription was not added"
+          },
+          "description": {
+            "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Скопируйте ссылку этой страницы, затем в FlClashX перейдите в раздел Профили, нажмите кнопку +, выберите URL, вставьте вашу скопированную ссылку и нажмите Отправить",
+            "en": "If nothing happened after clicking the button, add the subscription manually. Copy the link of this page, then go to the Profiles section in FlClashX, click the + button, select URL, paste your copied link and click Send"
+          }
+        },
+        "connectAndUseStep": {
+          "description": {
+            "ru": "Выберите добавленный профиль в разделе Профили. В Панели управления нажмите кнопку включить в правом нижнем углу. После запуска в разделе Прокси вы можете изменить выбор сервера к которому вас подключит.",
+            "en": "Select the added profile in the Profiles section. In the Control Panel, click the enable button in the lower right corner. After launching, you can change the choice of server to which you will be connected in the Proxy section."
+          }
         }
       },
-      "connectAndUseStep": {
-        "description": {
-          "ru": "Выберите добавленный профиль в разделе Профили. В Панели управления нажмите кнопку включить в правом нижнем углу. После запуска в разделе Прокси вы можете изменить выбор сервера к которому вас подключит. "
+      {
+        "id": "flclashx",
+        "name": "FlClashX",
+        "isFeatured": true,
+        "urlScheme": "flclashx://install-config?url=",
+        "installationStep": {
+          "buttons": [
+            {
+              "buttonLink": "https://github.com/pluralplay/FlClashX/releases/download/v0.2.1/FlClashX-0.2.1-android-arm64-v8a.apk",
+              "buttonText": {
+                "ru": "Скачать APK",
+                "en": "Download APK"
+              }
+            }
+          ],
+          "description": {
+            "ru": "Скачайте и установите FlClashX APK",
+            "en": "Download and install FlClashX APK"
+          }
+        },
+        "addSubscriptionStep": {
+          "description": {
+            "ru": "Нажмите кнопку ниже, чтобы добавить подписку",
+            "en": "Click the button below to add the subscription"
+          }
+        },
+        "additionalAfterAddSubscriptionStep": {
+          "buttons": [],
+          "title": {
+            "ru": "Если подписка не добавилась",
+            "en": "If the subscription was not added"
+          },
+          "description": {
+            "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Скопируйте ссылку этой страницы, затем в FlClashX перейдите в раздел Профили, нажмите кнопку +, выберите URL, вставьте вашу скопированную ссылку и нажмите Отправить",
+            "en": "If nothing happened after clicking the button, add the subscription manually. Copy the link of this page, then go to the Profiles section in FlClashX, click the + button, select URL, paste your copied link and click Send"
+          }
+        },
+        "connectAndUseStep": {
+          "description": {
+            "ru": "Выберите добавленный профиль в разделе Профили. В Панели управления нажмите кнопку включить в правом нижнем углу. После запуска в разделе Прокси вы можете изменить выбор сервера к которому вас подключит.",
+            "en": "Select the added profile in the Profiles section. In the Control Panel, click the enable button in the lower right corner. After launching, you can change the choice of server to which you will be connected in the Proxy section."
+          }
+        }
+      },
+      {
+        "id": "happ",
+        "name": "Happ",
+        "isFeatured": false,
+        "urlScheme": "happ://add/",
+        "installationStep": {
+          "buttons": [
+            {
+              "buttonLink": "https://play.google.com/store/apps/details?id=com.happproxy",
+              "buttonText": {
+                "ru": "Открыть в Google Play",
+                "en": "Open in Google Play"
+              }
+            },
+            {
+              "buttonLink": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
+              "buttonText": {
+                "ru": "Скачать APK",
+                "en": "Download APK"
+              }
+            }
+          ],
+          "description": {
+            "ru": "Откройте страницу в Google Play и установите приложение. Или установите приложение из APK файла напрямую, если Google Play не работает.",
+            "en": "Open the page in Google Play and install the app. Or install the app from the APK file directly if Google Play is not working."
+          }
+        },
+        "addSubscriptionStep": {
+          "description": {
+            "ru": "Нажмите кнопку ниже, чтобы добавить подписку",
+            "en": "Click the button below to add the subscription"
+          }
+        },
+        "connectAndUseStep": {
+          "description": {
+            "ru": "Откройте приложение и подключитесь к серверу",
+            "en": "Open the app and connect to a server"
+          }
+        },
+        "additionalAfterAddSubscriptionStep": {
+          "title": {
+            "ru": "Выберите какие приложения запускать с впн",
+            "en": "Select which apps to run with VPN"
+          },
+          "description": {
+            "ru": "На андроид можно включить ВПН только для определенных приложений, для этого откройте настройки (шестеренка слева вверху), затем \"Прокси для выбранных приложений\". На самом верху страницы выберите \"ВКЛ\" и в списке приложений выберите те, для которых нужен впн (например ютуб)\n\nДополнительно я советую скачать второй браузер и добавить его в маршрутизацию. Так у вас будет 2 браузера - один будет подключаться к сайтам напрямую, второй через впн",
+            "en": "On Android, you can enable VPN only for certain applications. To do this, open the settings (the gear icon in the upper left), then \"Proxy for selected applications.\" At the very top of the page, select \"ON\" and in the list of applications, choose those that need VPN (for example, YouTube).\n\nAdditionally, I recommend downloading a second browser and adding it to the routing. This way you will have 2 browsers - one will connect to sites directly, the other through VPN"
+          }
         }
       }
-    }
-  ],
-  "pc": [
-    {
-      "id": "flclashx",
-      "name": "FlClashX",
-      "isFeatured": true,
-      "urlScheme": "flclashx://install-config?url=",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://github.com/pluralplay/FlClashX/releases/download/v0.2.1/FlClashX-0.2.1-windows-amd64-setup.exe",
-            "buttonText": {
-              "ru": "Windows (Установщик)"
+    ],
+    "windows": [
+      {
+        "id": "flclashx",
+        "name": "FlClashX",
+        "isFeatured": true,
+        "urlScheme": "flclashx://install-config?url=",
+        "installationStep": {
+          "buttons": [
+            {
+              "buttonLink": "https://github.com/pluralplay/FlClashX/releases/download/v0.2.1/FlClashX-0.2.1-windows-amd64-setup.exe",
+              "buttonText": {
+                "ru": "Windows (Установщик)",
+                "en": "Windows (Installer)"
+              }
+            },
+            {
+              "buttonLink": "https://github.com/pluralplay/FlClashX/releases/download/v0.2.1/FlClashX-0.2.1-windows-amd64.zip",
+              "buttonText": {
+                "ru": "Windows (Портативная)",
+                "en": "Windows (Portable)"
+              }
             }
-          },
-          {
-            "buttonLink": "https://github.com/pluralplay/FlClashX/releases/download/v0.2.1/FlClashX-0.2.1-windows-amd64.zip",
-            "buttonText": {
-              "ru": "Windows (Портативная)"
-            }
-          },
-          {
-            "buttonLink": "https://github.com/pluralplay/FlClashX/releases/download/v0.2.1/FlClashX-0.2.1-windows-arm64-setup.exe",
-            "buttonText": {
-              "ru": "Windows на ARM (Установщик)"
-            }
-          },
-          {
-            "buttonLink": "https://github.com/pluralplay/FlClashX/releases/download/v0.2.1/FlClashX-0.2.1-windows-arm64.zip",
-            "buttonText": {
-              "ru": "Windows на ARM (Портативная)"
-            }
+          ],
+          "description": {
+            "ru": "Выберите подходящую версию для вашего устройства, нажмите на кнопку ниже и установите приложение.",
+            "en": "Choose the appropriate version for your device, click the button below, and install the application."
           }
-        ],
-        "description": {
-          "ru": "Выберите подходящую версию для вашего устройства, нажмите на кнопку ниже и установите приложение."
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
-        }
-      },
-      "additionalAfterAddSubscriptionStep": {
-        "buttons": [],
-        "title": {
-          "ru": "Если подписка не добавилась"
         },
-        "description": {
-          "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Скопируйте ссылку этой страницы, затем в FlClashX перейдите в раздел Профили, нажмите кнопку +, выберите URL, вставьте вашу скопированную ссылку и нажмите Отправить"
+        "addSubscriptionStep": {
+          "description": {
+            "ru": "Нажмите кнопку ниже, чтобы добавить подписку",
+            "en": "Click the button below to add the subscription"
+          }
+        },
+        "additionalAfterAddSubscriptionStep": {
+          "buttons": [],
+          "title": {
+            "ru": "Если подписка не добавилась",
+            "en": "If the subscription was not added"
+          },
+          "description": {
+            "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Скопируйте ссылку этой страницы, затем в FlClashX перейдите в раздел Профили, нажмите кнопку +, выберите URL, вставьте вашу скопированную ссылку и нажмите Отправить",
+            "en": "If nothing happened after clicking the button, add the subscription manually. Copy the link of this page, then go to the Profiles section in FlClashX, click the + button, select URL, paste your copied link and click Send"
+          }
+        },
+        "connectAndUseStep": {
+          "description": {
+            "ru": "Выберите добавленный профиль в разделе Профили. В Панели управления нажмите кнопку включить в правом нижнем углу. После запуска в разделе Прокси вы можете изменить выбор сервера к которому вас подключит.",
+            "en": "Select the added profile in the Profiles section. In the Control Panel, click the enable button in the lower right corner. After launching, you can change the choice of server to which you will be connected in the Proxy section."
+          }
         }
       },
-      "connectAndUseStep": {
-        "description": {
-          "ru": "Выберите добавленный профиль в разделе Профили. В Панели управления нажмите кнопку включить в правом нижнем углу. После запуска в разделе Прокси вы можете изменить выбор сервера к которому вас подключит. "
+      {
+        "id": "koala-clash",
+        "name": "Koala Clash",
+        "isFeatured": false,
+        "urlScheme": "koala-clash://install-config?url=",
+        "installationStep": {
+          "buttons": [
+            {
+              "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases/latest/download/Koala.Clash_x64-setup.exe",
+              "buttonText": {
+                "ru": "Windows (Установщик)",
+                "en": "Windows (Installer)"
+              }
+            }
+          ],
+          "description": {
+            "ru": "Выберите подходящую версию для вашего устройства, нажмите на кнопку ниже и установите приложение.",
+            "en": "Choose the appropriate version for your device, click the button below, and install the application."
+          }
+        },
+        "additionalBeforeAddSubscriptionStep": {
+          "buttons": [],
+          "description": {
+            "ru": "Если вы ранее использовали Clash Verge Rev, то его требуется удалить перед установкой Koala Clash.",
+            "en": "If you have previously used Clash Verge Rev, it must be uninstalled before installing Koala Clash."
+          },
+          "title": {
+            "ru": "Предупреждение",
+            "en": "Warning"
+          }
+        },
+        "addSubscriptionStep": {
+          "description": {
+            "ru": "Нажмите кнопку ниже, чтобы добавить подписку",
+            "en": "Click the button below to add the subscription"
+          }
+        },
+        "additionalAfterAddSubscriptionStep": {
+          "buttons": [],
+          "title": {
+            "ru": "Если подписка не добавилась",
+            "en": "If the subscription was not added"
+          },
+          "description": {
+            "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Нажмите на этой странице кнопку Получить ссылку в правом верхнем углу, скопируйте ссылку. В Koala Clash перейдите на главную страницу, нажмите кнопку Добавить профиль и вставьте ссылку в текстовое поле, затем нажмите на кнопку Импорт.",
+            "en": "If nothing happened after clicking the button, add the subscription manually. On this page, click the Get Link button in the upper right corner, copy the link. In Koala Clash, go to the main page, click the Add Profile button and paste the link into the text field, then click the Import button."
+          }
+        },
+        "connectAndUseStep": {
+          "description": {
+            "ru": "Выбрать сервер можно внизу на главной странице, включить VPN можно нажав на главной странице на большую кнопку по центру.",
+            "en": "You can select a server at the bottom of the main page, you can enable the VPN by clicking the big button in the center on the main page."
+          }
         }
       }
-    },
-    {
-      "id": "koala-clash",
-      "name": "Koala Clash",
-      "isFeatured": false,
-      "urlScheme": "koala-clash://install-config?url=",
-      "installationStep": {
-        "buttons": [
-          {
-            "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases/latest/download/Koala.Clash_x64-setup.exe",
-            "buttonText": {
-              "ru": "Windows (Установщик)"
-            }
-          },
-          {
-            "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases/latest/download/Koala.Clash_arm64-setup.exe",
-            "buttonText": {
-              "ru": "Windows на ARM (Установщик)"
-            }
-          }
-        ],
-        "description": {
-          "ru": "Выберите подходящую версию для вашего устройства, нажмите на кнопку ниже и установите приложение."
-        }
-      },
-      "additionalBeforeAddSubscriptionStep": {
-        "buttons": [],
-        "description": {
-          "ru": "Если вы ранее использовали Clash Verge Rev, то его требуется удалить перед установкой Koala Clash."
-        },
-        "title": {
-          "ru": "Предупреждение"
-        }
-      },
-      "addSubscriptionStep": {
-        "description": {
-          "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
-        }
-      },
-      "additionalAfterAddSubscriptionStep": {
-        "buttons": [],
-        "title": {
-          "ru": "Если подписка не добавилась"
-        },
-        "description": {
-          "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Нажмите на этой странице кнопку Получить ссылку в правом верхнем углу, скопируйте ссылку. В Koala Clash перейдите на главную страницу, нажмите кнопку Добавить профиль и вставьте ссылку в текстовое поле, затем нажмите на кнопку Импорт."
-        }
-      },
-      "connectAndUseStep": {
-        "description": {
-          "ru": "Выбрать сервер можно внизу на главной странице, включить VPN можно нажав на главной странице на большую кнопку по центру."
-        }
-      }
-    }
-  ]
+    ]
+  }
 }
