@@ -1,9 +1,7 @@
 {
   "config": {
     "additionalLocales": [
-      "ru",
-      "zh",
-      "fa"
+      "ru"
     ],
     "branding": {
       "name": "Subscription",
